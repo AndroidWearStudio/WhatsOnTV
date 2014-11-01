@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Whats on TV</string>
+    <string name="title_section1">Now</string>
+    <string name="title_section2">Tonight</string>
+    <string name="title_section3">This week</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="image">image</string>
+
+</resources>
