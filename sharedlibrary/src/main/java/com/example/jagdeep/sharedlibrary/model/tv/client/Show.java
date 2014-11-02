@@ -4,10 +4,10 @@ import android.os.Parcel;
 import android.os.Parcelable;
 
 public class Show implements Parcelable {
-	private String title;
-	private String time;
-	private String channel_name;
-	private String image;
+	public String title;
+	public String time;
+	public String channel_name;
+	public String image;
 	private boolean isTopPick;
 	private Long timeStamp;
 	private String broadcastID;
