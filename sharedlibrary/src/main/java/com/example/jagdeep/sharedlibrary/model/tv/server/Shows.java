@@ -1,6 +1,6 @@
-package com.example.jagdeep.wear1.model.tv.server;
+package com.example.jagdeep.sharedlibrary.model.tv.server;
 
-import com.example.jagdeep.wear1.model.tv.client.Show;
+import com.example.jagdeep.sharedlibrary.model.tv.client.Show;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 import java.util.ArrayList;
@@ -23,8 +23,8 @@ public class Shows {
 		return sections;
 	}
 
-	public List<Show> getShows() {
-		List<Show> shows = new ArrayList<Show>();
+	public ArrayList<Show> getShows() {
+		ArrayList<Show> shows = new ArrayList<Show>();
 		for (Section section : getSections()) {
 			if (section.getId() != null && (section.getId().equals("popular") || section.getId().equals
 					("toppick-tonight") || section.getId().equals("featured-tonight") || section.getId().equals

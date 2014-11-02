@@ -1,4 +1,4 @@
-package com.example.jagdeep.wear1.model.tv.server;
+package com.example.jagdeep.sharedlibrary.model.tv.server;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
